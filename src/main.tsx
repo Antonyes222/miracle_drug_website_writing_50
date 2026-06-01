@@ -6,7 +6,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/miracle_drug_website_writing_50/">
       <App />
     </BrowserRouter>
   </StrictMode>,
