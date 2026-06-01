@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
+  base: '/miracle_drug_website_writing_50/',
+  plugins: [react(), tailwindcss()],
 })
